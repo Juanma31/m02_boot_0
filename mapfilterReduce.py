@@ -17,3 +17,10 @@ sumatorio=reduce(lambda x,y:x+y,lista)
 suma100=reduce(lambda x,y:x+y, range(101))
 sumatorioDobles=reduce(lambda x,y: x+y*2, lista)
 
+print(list(listaPares))
+print(list(listaPares1))
+print(sumatorio)
+print(sumatorioDobles)
+print(suma100)
+
+
