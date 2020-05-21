@@ -45,3 +45,8 @@ class PerroAsistencia(Perro):
             return self.__trabajando
         else:
             self.__trabajando_=valor
+class Timido():
+    def __init__(self, nombre):
+        self.__nombre=nombre #privado
+    def preguntarNombreConCuidado(self):
+        return self.__nombre
