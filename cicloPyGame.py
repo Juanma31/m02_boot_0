@@ -11,7 +11,7 @@ pygame.font.init() #el font es para los sistemas mas antiguos, con el imit solo 
 
 gameOver =False #variable que termina el juego
 while not gameOver:
-    for event in pygame.event.get(): #crear eventos
+    for event in pygame.event.get(): #crear eventos, es decir, q esta cogiendo cada movimiento q hacemos con el raton, teclado...
         if event.type == pygame.QUIT: # Si le damos al boton x de cerrar ventana
             gameOver=True
     pygame.display.flip() #refresca la pantalla
